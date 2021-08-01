@@ -11,7 +11,7 @@
 *{
     /* border: 1px solid red; */
     box-sizing: border-box;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -29,7 +29,7 @@ nav{
 
 .webname h1{
     color: #ffffff;
-    font-family: Poppins !important; 
+    font-family: 'Poppins', sans-serif !important; 
 }
 
 .tabs a{
