@@ -1,17 +1,8 @@
-@font-face {
-    font-family: Poppins;
-    src: url(/assets/fonts/Poppins-Regular.ttf)
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url(/assets/fonts/OpenSans-Regular.ttf)
-}
 
 *{
     /* border: 1px solid red; */
     box-sizing: border-box;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -124,6 +115,7 @@ tbody td{
     margin-top: 20px;
     width: 15%;
     min-width: 120px;
+    -webkit-user-drag: none;
 }
 
 /* FOOTER */

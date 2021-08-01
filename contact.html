@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
     <title>Quickship | Contact Us</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 </head>
@@ -47,8 +56,8 @@
                     <p class="mendengar mt-4" style="font-size: x-large;">KAMI INGIN MENDENGAR KABAR DARIMU</p>
                     <P class="pastikan mt-2" style="font-size: large;">Kami ingin memastikan Anda mendapatkan pelayanan
                         terbaik dari kami.</P>
-                    <form class="formaja" ng-app="validationApp" ng-controller="mainController" name="userForm" ng-submit="submitForm(userForm.$valid)" method="POST"
-                        novalidate>
+                    <form class="formaja" ng-app="validationApp" ng-controller="mainController" name="userForm"
+                        ng-submit="submitForm(userForm.$valid)" method="POST" novalidate>
                         <div class="mt-3 mb-3 form-group">
                             <label for="email" class="form-label">Email address</label>
                             <input ng-model="user.email" type="email" class="form-control" id="email" name="email"
@@ -102,10 +111,12 @@
                         <p><img src="./assets/images/pin.png" alt="" width="25">&nbsp; ALAMAT</p>
                         <p>Jalan Hj Kodja 4 no 3 Kukusan, Depok, Indonesia</p>
                         <br>
-                        <p><img src="./assets/images/phone.png" alt="" width="15" style="margin-left: 5px;">&nbsp; TELEPON</p>
+                        <p><img src="./assets/images/phone.png" alt="" width="15" style="margin-left: 5px;">&nbsp;
+                            TELEPON</p>
                         <p>(021) 836391</p>
                         <br>
-                        <p><img src="./assets/images/inbox.png" alt="" width="20" style="margin-left: 3px;">&nbsp; E-MAIL</p>
+                        <p><img src="./assets/images/inbox.png" alt="" width="20" style="margin-left: 3px;">&nbsp;
+                            E-MAIL</p>
                         <p>hello@quickship.id</p>
 
                     </div>
